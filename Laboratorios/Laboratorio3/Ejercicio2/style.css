@@ -1,0 +1,47 @@
+body{
+    box-sizing: :border-box;
+    height: 100vh;
+    overflow: hidden;
+
+    background-image: url("http://zamalek.info/wp-content/uploads/2019/01/triangle-pattern-design-tri-double-dust-geometric-dusty-pastel-triangle-pattern-design-ideas.jpg");
+ background-attachment:fixed;
+ background-position: center;
+ background-size: cover;
+
+
+ padding:1em;
+ margin:0;
+
+}
+.main img{
+    opacity: 2;
+    width: 10px;
+    height: 10px;
+}
+
+.btn{
+    border: 1px solid black;
+}
+.imagen1>img {
+    object-fit: cover;
+    width: 5em;
+    height: 5em;
+    margin: 0.5;
+   
+}
+
+.imagen1>img:hover{
+  opacity: :1;  
+}
+
+main{
+    width: 60%;;
+    height: auto;
+    display: flex;
+
+    flex-direction: column;
+    flex-flow: wrap;
+
+    justify-content: center;
+
+}
