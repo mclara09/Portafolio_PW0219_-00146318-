@@ -1,8 +1,59 @@
 body{
     background: black;
-
+    justify-content: center;
 }
 h1{
     color: white;
     text-align: center;
+}
+.gridcontainer{
+    display: grid;
+    margin: 5em auto;
+    width: 80%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(10em, 10em);
+    grid-gap: 1em;
+    grid-auto-flow: row dense;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img1{
+    grid-area: span 1 / span 7;
+}
+
+.img2{
+    grid-area: span 4/ span 2;
+}
+
+.img3, .img4, .img9, .img10{
+    grid-area: span 1/ span 1;
+}
+
+.img5{
+    grid-area: span 2/ span 3;
+}
+
+.img6{
+    grid-area: span 1/ span 2;
+}
+
+.img7{
+    grid-area: span 2 / span 2;
+}
+
+.img8{
+    grid-area: span 2 / span 1;
+}
+
+.img12{
+    grid-area: span 1 / span 2;
+}
+
+.img14{
+    grid-area: span 1 / span 5;
 }
