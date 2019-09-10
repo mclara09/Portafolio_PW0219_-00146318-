@@ -1,0 +1,58 @@
+
+main img{
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+.btn1{
+    border: 1px solid $negro;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 0.4em;
+    background: $celeste;
+}
+.btn2{
+    border: 1px solid $negro;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 0.4em;
+    background: $naranja;
+}
+.btn3{
+    border: 1px solid $negro;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 0.4em;
+    background: $verde;
+}
+.imagen1>img {
+    object-fit: cover;
+    width: 5em;
+    height: 5em;
+    margin: 0.5;
+   
+}
+.imagen1{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.imagen1>img:hover{
+  opacity: 1;  
+}
+
+main{
+    height: auto;
+    display: flex;
+
+    flex-direction: column;
+    flex-flow: wrap;
+
+    justify-content: center;
+}
