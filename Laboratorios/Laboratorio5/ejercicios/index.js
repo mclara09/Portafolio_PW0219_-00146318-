@@ -25,11 +25,11 @@ function arreglo(sparre){
 arreglo([1,2,3,4]);*/
 
 /*ejercicio3*/
-
+/*
 function ocurrencia(cantidad){
 var contador;
 for(var i=0; i<cantidad[0].lenght;i++){
-if(cantidad[0][i]==cantidad[i]){
+if(cantidad[0][i]==cantidad[1]){
     contador++;
 }
 
@@ -38,6 +38,7 @@ console.log(contador);
 }
 
 ocurrencia([[2,4,"palabra",4],4]);
+*/
 /*ejercicio4*/
 
 
@@ -62,3 +63,18 @@ for(var i=0; i<original.length;i++){
 }
 
 palindrome("ana");*/
+
+/*ejercicio9*/
+function Acircu(radio){
+var area;
+
+area=Math.PI*(radio*radio);
+console.log(area);
+
+if(radio<=0){
+    console.log("radio negativo");
+}
+else{
+    console.log(area);
+}
+}
