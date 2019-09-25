@@ -63,13 +63,28 @@ for(var i=0; i<original.length;i++){
 }
 
 palindrome("ana");*/
+/*ejercicio6
 
-/*ejercicio9*/
+function ordenar(lista){
+    for(var i=0; i<lista.lenght;i++){
+        for(var j=0;j<lista.lenght -1; j++){
+            if(lista[j+1]<lista[j]){
+                var aux = lista[j+1];
+                lista[j+1]=lista[j];
+                lista[j]=aux;
+            }
+        }
+    }
+    return lista;
+    
+}
+*/
+/*ejercicio9
 function Acircu(radio){
-var area;
+var area=0;
 
 area=Math.PI*(radio*radio);
-console.log(area);
+
 
 if(radio<=0){
     console.log("radio negativo");
@@ -78,3 +93,5 @@ else{
     console.log(area);
 }
 }
+Acircu(2);
+*/
