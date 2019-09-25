@@ -26,15 +26,18 @@ arreglo([1,2,3,4]);*/
 
 /*ejercicio3*/
 
-function arreglo2(cantidad){
+function ocurrencia(cantidad){
 var contador;
-var b=[];
-for(var i=0; i<cantidad.lenght;i++){
-contador=cantidad[i];
+for(var i=0; i<cantidad[0].lenght;i++){
+if(cantidad[0][i]==cantidad[i]){
+    contador++;
 }
 
 }
+console.log(contador);
+}
 
+ocurrencia([[2,4,"palabra",4],4]);
 /*ejercicio4*/
 
 
